@@ -42,20 +42,19 @@ ol {
     color:#fff;
     border-bottom:4px solid #1cdf78;
     overflow:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #header .logo {
     font-family: 'Muli', sans-serif;
-    float:left;
     color:#f3f7cc;
     font-size:20px;
-    margin-right:10%;
 }
 
 #header ul.menu {
     list-style:none;
-    float:left;
-    margin:0;
     padding:0;
 }
 #header ul.menu li {
@@ -76,8 +75,22 @@ ol {
 }
 
 #header .user {
-    float:right;
-    padding-top:4px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+#header .user a{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#header .user img{
+    border-radius:45%;
+    width: 45px;
+    height: 45px;
 }
 
 #content {
